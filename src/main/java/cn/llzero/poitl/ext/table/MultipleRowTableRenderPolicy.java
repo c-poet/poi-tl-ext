@@ -30,7 +30,6 @@ import java.util.Vector;
  * <p>单行表格循环可以使用{@link LoopRowTableRenderPolicy}</p>
  *
  * @author llzero54
- * @date 2021/06/09
  * @see RenderPolicy
  */
 public class MultipleRowTableRenderPolicy implements RenderPolicy {
