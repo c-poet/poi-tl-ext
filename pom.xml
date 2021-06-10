@@ -9,7 +9,7 @@
     <packaging>jar</packaging>
     <version>0.1.1</version>
     <name>${project.artifactId}</name>
-    <url>https://github.com/llzero54/poi-el-ext</url>
+    <url>https://www.llzero.cn</url>
     <description>poi-tl plug-in extension</description>
 
     <licenses>
@@ -20,8 +20,8 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/llzero54/poi-el-ext</url>
-        <connection>https://github.com/llzero54/poi-el-ext.git</connection>
+        <url>https://github.com/llzero54/poi-tl-ext</url>
+        <connection>https://github.com/llzero54/poi-tl-ext.git</connection>
     </scm>
 
     <properties>
