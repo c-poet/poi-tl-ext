@@ -7,7 +7,7 @@
     <groupId>cn.llzero</groupId>
     <artifactId>poi-tl-ext</artifactId>
     <packaging>jar</packaging>
-    <version>0.1.1</version>
+    <version>0.1.2</version>
     <name>${project.artifactId}</name>
     <url>https://www.llzero.cn</url>
     <description>poi-tl plug-in extension</description>
@@ -105,7 +105,7 @@
                         <configuration>
                             <serverId>ossrh</serverId>
                             <nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>
-                            <autoReleaseAfterClose>true</autoReleaseAfterClose>
+                            <autoReleaseAfterClose>false</autoReleaseAfterClose>
                         </configuration>
                     </plugin>
                 </plugins>
