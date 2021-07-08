@@ -7,7 +7,7 @@
     <groupId>cn.llzero</groupId>
     <artifactId>poi-tl-ext</artifactId>
     <packaging>jar</packaging>
-    <version>0.1.2</version>
+    <version>0.2.0</version>
     <name>${project.artifactId}</name>
     <url>https://www.llzero.cn</url>
     <description>poi-tl plug-in extension</description>
