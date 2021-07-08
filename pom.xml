@@ -32,6 +32,7 @@
         <maven.compiler.compilerVersion>${java.version}</maven.compiler.compilerVersion>
         <lombok.version>1.18.16</lombok.version>
         <poi-tl.version>1.10.0</poi-tl.version>
+        <poi-tl-rich-text-ext.version>0.3.3</poi-tl-rich-text-ext.version>
     </properties>
 
     <developers>
@@ -125,6 +126,22 @@
             <groupId>com.deepoove</groupId>
             <artifactId>poi-tl</artifactId>
             <version>${poi-tl.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.github.draco1023</groupId>
+            <artifactId>poi-tl-ext</artifactId>
+            <version>${poi-tl-rich-text-ext.version}</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>poi-tl</artifactId>
+                    <groupId>com.deepoove</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>commons-lang3</artifactId>
+                    <groupId>org.apache.commons</groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <dependency>
